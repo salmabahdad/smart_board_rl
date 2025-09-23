@@ -12,9 +12,13 @@
  
  - Action masking for valid boarding actions.
 
-Reinforcement Learning Agent:
+### Reinforcement Learning Agent:
 - Uses MaskablePPO from SB3-contrib to learn optimal boarding strategies.
 
 - Vectorized environment support for faster training (SubprocVecEnv).
   
--Callbacks for evaluation and saving best models during training.
+- Callbacks for evaluation and saving best models during training.
+
+###Reward Function:
+- Encourages moving passengers forward and penalizes waiting in the aisle.
+- Provides a numerical metric for boarding efficiency.
