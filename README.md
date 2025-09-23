@@ -35,3 +35,15 @@ conda activate smartboard
 <pre> <code>
 pip install requirements.txt
 </code> </pre>
+
+## 📝 Usage
+### Run Environment in Terminal
+<pre> <code>
+   python smart_board_env.py
+</code> </pre>
+- Random actions will be executed, showing the boarding process, passenger states, and reward.
+
+### Train RL Agent
+<pre> <code>
+   python agent.py
+</code> </pre>
