@@ -4,10 +4,10 @@
 ---
 ## 🚀 Features
 #### Custom Gymnasium Environment:
- -AirplaneEnv simulates passengers boarding an airplane.
+ - AirplaneEnv simulates passengers boarding an airplane.
  
- -Passengers have different states: walking to seat, waiting in aisle, stowing suitcase, or seated and ready.
+ - Passengers have different states: walking to seat, waiting in aisle, stowing suitcase, or seated and ready.
  
- -Supports terminal rendering for step-by-step visualization.
+ - Supports terminal rendering for step-by-step visualization.
  
- -Action masking for valid boarding actions.
+ - Action masking for valid boarding actions.
