@@ -11,3 +11,10 @@
  - Supports terminal rendering for step-by-step visualization.
  
  - Action masking for valid boarding actions.
+
+Reinforcement Learning Agent:
+- Uses MaskablePPO from SB3-contrib to learn optimal boarding strategies.
+
+- Vectorized environment support for faster training (SubprocVecEnv).
+  
+-Callbacks for evaluation and saving best models during training.
