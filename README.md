@@ -25,8 +25,13 @@ git clone https://github.com/yourusername/smart-board.git
 cd smart-airplane-boarding
 </code> </pre>
 
-### 1. Create a Python environment (recommended: conda or venv):
+### 2. Create a Python environment (recommended: conda or venv):
 <pre> <code>
 conda create -n smartboard python=3.11
 conda activate smartboard
+</code> </pre>
+
+### 3. Install dependencies:
+<pre> <code>
+pip install requirements.txt
 </code> </pre>
