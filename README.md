@@ -17,3 +17,6 @@
 ### Reward Function:
 - Encourages moving passengers forward and penalizes waiting in the aisle.
 - Provides a numerical metric for boarding efficiency.
+
+## 🛠 Installation
+#### 1. Clone the repository:
