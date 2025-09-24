@@ -16,8 +16,7 @@ log_dir = "logs"
 def train():
 
     env = make_vec_env(AirplaneEnv, n_envs=12, env_kwargs={"rows_num":10, "seats_row":5}, vec_env_cls=SubprocVecEnv)
-
-    # Increase ent_coef to encourage exploration, this resulted in a better solution.
+    
     model = MaskablePPO('MlpPolicy', env, verbose=1, device='cpu', tensorboard_log=log_dir, ent_coef=0.05)
 
     eval_callback = MaskableEvalCallback(
