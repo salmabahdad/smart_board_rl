@@ -21,7 +21,7 @@
 ## 🛠 Installation
 ### 1. Clone the repository:
 <pre> <code>
-  git clone https://github.com/yourusername/smart-board.git
+  git clone https://github.com/salmabahdad/smart-board.git
   cd smart-airplane-boarding
 </code> </pre>
 
